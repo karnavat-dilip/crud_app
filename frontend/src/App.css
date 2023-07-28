@@ -1,0 +1,82 @@
+.parent {
+  position: relative;
+  margin: 10%;
+  top: -350px;
+  padding: 13px;
+  box-shadow: 0 0 11px;
+  border-radius: 4px;
+  background: aliceblue;
+}
+
+.table {
+  text-align: left;
+  font-family: math;
+  width: 100%;
+}
+
+.btn {
+  padding: 7px;
+  text-decoration: auto;
+  color: white;
+  background: cornflowerblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 4px;
+  width: 43%;
+  font-size: medium;
+}
+
+.lbl {
+  color: blue;
+  font-family: auto;
+  padding: 8px;
+}
+
+.input {
+  padding: 5px;
+  outline: none;
+  font-family: auto;
+  margin: 3px;
+}
+
+.input:focus {
+  border: 1px solid green;
+  box-shadow: 0px 0px 2px green;
+}
+
+#submit {
+  padding: 8px;
+  width: 12%;
+  box-shadow: 0 0 4px cornflowerblue;
+  color: white;
+  background: cornflowerblue;
+  border-radius: 5px;
+  font-size: medium;
+  font-family: auto;
+  border: none;
+  left: 8px;
+  position: relative;
+  cursor: pointer;
+  top: 7px;
+}
+
+#submit:hover {
+  color: blue;
+  transition: all 0.5s linear;
+  background: cadetblue;
+  box-shadow: 0 0 5px cadetblue;
+}
+
+.h2 {
+  position: relative;
+  left: 11px;
+  color: darkblue;
+  text-shadow: 0 0 33px;
+}
+
+.addbtn {
+  width: 139px;
+  text-align: center;
+  display: inline-block;
+}
